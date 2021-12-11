@@ -1,0 +1,5 @@
+type ChildSchema @entity {
+  id: ID!
+  data: BigInt! # uint256
+}
+
